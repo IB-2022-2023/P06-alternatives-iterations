@@ -29,42 +29,30 @@ Una vez acepte la invitación tendrá que clonar un repositorio asociado a la ta
 Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
 que realice.
 
-Al introducir en un navegador la dirección del enlace de invitación a la tarea, que tiene una apariencia
-similar a:
-```
-https://classroom.github.com/a/uNbth9vD
-```
-Se le solicitará que se autentifique en su cuenta de GitHub.
-Una vez autentificada/o se le solicitará que se una a la "classroom" IB-2022-2023
-tal como muestra
-[Esta
-imagen](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/join-the-classroom-22-23.png?token=GHSAT0AAAAAAB2KIDMDGVFSGV5ZPKCEIPJQY2WOHQQ)
-
-IMAGEN https://classroom.github.com/a/uNbtx9vD
-
+El enlace de invitación a la tarea tiene una apariencia similar a:
+`https://classroom.github.com/a/uNbth9vD`.
+Si lo introduce en un navegador, se le solicitará que se autentifique en su cuenta de GitHub.
+Una vez autentificada/o le llevará a una pantalla
+[como esta](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/join-the-classroom-22-23.png?token=GHSAT0AAAAAAB2KIDMDGVFSGV5ZPKCEIPJQY2WOHQQ)
+en la que se le solicitará que se una a la "classroom" IB-2022-2023.
 Para ello ha de seleccionar su nombre de la lista de identificadores (*Identifiers*) que figura en esa página.
 A continuación se le solicitará que "Acepte la tarea Practica-PRUEBAXXXXXXX" (habrá una tarea asociada con
 cada una de las prácticas de la asignatura.
 
-IMAGEN accept-the-assignment.png
+Cuando lo haya hecho aparecerá una pantalla 
+[como esta](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/accepted.png?token=GHSAT0AAAAAAB2KIDMCQ75PHT2TCKF2HUPSY2WOOPQ)
+indicando que ha aceptado Ud. la tarea asignada
 
-Aparecerá una pantalla indicando que ha aceptado Ud. la tarea asignada:
-
-IMAGEN accepted.png
-
-Cuando refresque la pantalla le mostrará otra en la que figura el enlace al repositorio que ha sido creado
-para su trabajo en la práctica:
-
-IMAGEN ready.png
+Cuando refresque la pantalla le mostrará 
+[otra pantalla](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/ready.png?token=GHSAT0AAAAAAB2KIDMDZNDJL6P5KDO3N4OEY2WOPIA)
+en la que figura el enlace al repositorio que ha sido creado
+para su trabajo en la práctica.
 
 A través de ese enlace accederá Ud. en GitHub al repositorio privado que se ha creado para que desarrolle en
 él los programas correspondientes a la práctica en cuestión.
-El enlace que figura en ese repositorio (elija la opción SSH para el enlace)
-
-IMAGEN link.png
-
-es el que ha de entregar Ud. en la tarea del aula virtual correspondiente a la práctica.
-Recuerde que tiene que entregar 2 elementos: este enlace a su repositorio y un fichero .tar.gz conteniendo
+[El enlace que figura en ese repositorio](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/link.png?token=GHSAT0AAAAAAB2KIDMCQ4Z4HTEU2RJWWXDCY2WOQCA)
+(elija la opción SSH para el enlace) es el que ha de entregar Ud. en la tarea del aula virtual correspondiente a la práctica.
+Recuerde que tiene que entregar 2 elementos: este enlace a su repositorio y un fichero `.tar.gz` conteniendo
 todos los programas que desarrolle tanto antes como durante la sesión de evaluación.
 Ese enlace lo puede ya escribir en la tarea correspondiente del aula virtual: no es necesario que espere a la
 sesión de evaluación para subirlo.
@@ -74,15 +62,8 @@ Ese mismo enlace es el que ha de utilizar para realizar una copia local (clone) 
 virtual y comenzar a trabajar en los ejercicios de la práctica:
 
 ```
-git clone git@github.com:IB-2022-2023/practica-prueba.git <DirectorioLocal>
+git clone https://github.com/IB-2022-2023/P06-alternatives-iterations <DirectorioLocal>
 ```
-
-=================================
- 
-Cada vez que se publique una práctica en el aula virtual, recibirá por correo electrónico un mensaje
-indicándole que ha sido invitado a colaborar en el repositoro que se crea para su trabajo en esa práctica.
-La invitación caduca en una semana y al aceptarla accederá Ud. a su repositorio privado para esa práctica.
-
 
 ### La utilidad `make`
 
