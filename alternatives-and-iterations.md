@@ -91,6 +91,11 @@ Estudie asimismo el tutorial
 En ese tutorial se utiliza el compilador `gcc`, pero puede Ud. sustituirlo por `g++` puesto que el compilador
 de C++ compila igualmente el código en C (como se ha explicado, C++ es un superconjunto de C).
 
+En 
+[este
+directorio](https://github.com/IB-2022-2023/IB-class-code-examples/tree/master/IntroductionToC%2B%2B/make_tutorial)
+del repositorio de código que acompañan a las transparencias de clase XXX
+
 En el directorio `make-example` que ha recibido Ud. con esta práctica puede estudiar un fichero
 [Makefile](https://github.com/IB-2022-2023/P06-alternatives-iterations/blob/main/make-example/Makefile)
 que se utiliza para compilar el programa `dni.cc`
