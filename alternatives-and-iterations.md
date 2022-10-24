@@ -65,6 +65,16 @@ git clone https://github.com/IB-2022-2023/P06-alternatives-iterations <Directori
 ```
 
 ### La utilidad `make`
+[make](https://en.wikipedia.org/wiki/Make_(software)) 
+es una herramienta que permite automatizar el proceso de desarrollo de software.
+La función de make es determinar automáticamente qué ficheros o módulos de un programa necesitan ser recompilados, 
+y ejecutar los comandos necesarios para realizar esa tarea.
+Estudie en las transparencias de clase 
+[Make utility](https://docs.google.com/presentation/d/167rBvVIUrPAY8-7ieHnlXJ5hSstGfUIX2myyu5drCVA/edit?usp=sharing) 
+los fundamentos de la utilidad.
+Estudie asimismo el tutorial [A Simple Makefile Tutorial](https://cs.colby.edu/maxwell/courses/tutorials/maketutor/).
+En ese tutorial se utiliza el compilador `gcc`, pero puede Ud. sustituirlo por `g++` puesto que el compilador
+de C++ compila igualmente el código en C (C++ es un superconjunto de C).
 
 
 ### Ejercicios
