@@ -65,14 +65,29 @@ git clone https://github.com/IB-2022-2023/P06-alternatives-iterations <Directori
 ```
 
 ### La utilidad `make`
+Hasta ahora en la asignatura se han compilado los programas que se desarrollan de forma manual, invocando al
+compilador con un comando como
+```
+$ g++ -std=c++17 -Wall -o hello_world hello_world.cc
+```
+Tal como se ha explicado en las clases de teoría, por lo general, la compilación manual de programas es bastante tediosa, 
+especialmente cuando el programa consta de varios ficheros con código fuente y es necesario especificar opciones 
+adicionales del compilador.
+En la práctica, lo más común es usar herramientas para automatizar el proceso de compilación, y `make` es una
+de las herramientas mas usadas para tal propósito.
+
 [make](https://en.wikipedia.org/wiki/Make_(software)) 
 es una herramienta que permite automatizar el proceso de desarrollo de software.
 La función de make es determinar automáticamente qué ficheros o módulos de un programa necesitan ser recompilados, 
 y ejecutar los comandos necesarios para realizar esa tarea.
+
 Estudie en las transparencias de clase 
-[Make utility](https://docs.google.com/presentation/d/167rBvVIUrPAY8-7ieHnlXJ5hSstGfUIX2myyu5drCVA/edit?usp=sharing) 
+[Make
+utility](https://docs.google.com/presentation/d/1lYXrFHkka5VPkVukszQZq3VS9LNS5TOrA5m8fgkoQJQ/edit?usp=sharing)
 los fundamentos de la utilidad.
-Estudie asimismo el tutorial [A Simple Makefile Tutorial](https://cs.colby.edu/maxwell/courses/tutorials/maketutor/).
+
+Estudie asimismo el tutorial 
+[A Simple Makefile Tutorial](https://cs.colby.edu/maxwell/courses/tutorials/maketutor/).
 En ese tutorial se utiliza el compilador `gcc`, pero puede Ud. sustituirlo por `g++` puesto que el compilador
 de C++ compila igualmente el código en C (C++ es un superconjunto de C).
 
