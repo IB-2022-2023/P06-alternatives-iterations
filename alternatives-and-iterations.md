@@ -29,7 +29,7 @@ Una vez acepte la invitación tendrá que clonar un repositorio asociado a la ta
 Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
 que realice.
 
-El enlace de invitación a la tarea tiene una apariencia similar a:
+El enlace de invitación a la tarea tiene una apariencia similar a
 `https://classroom.github.com/a/uNbth9vD`.
 Si lo introduce en un navegador, se le solicitará que se autentifique en su cuenta de GitHub.
 Una vez autentificada/o le llevará a una pantalla
