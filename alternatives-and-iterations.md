@@ -42,7 +42,6 @@ cada una de las prácticas de la asignatura.
 Cuando lo haya hecho aparecerá una pantalla 
 [como esta](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/accepted.png?token=GHSAT0AAAAAAB2KIDMCQ75PHT2TCKF2HUPSY2WOOPQ)
 indicando que ha aceptado Ud. la tarea asignada
-
 Cuando refresque la pantalla le mostrará 
 [otra pantalla](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/ready.png?token=GHSAT0AAAAAAB2KIDMDZNDJL6P5KDO3N4OEY2WOPIA)
 en la que figura el enlace al repositorio que ha sido creado
