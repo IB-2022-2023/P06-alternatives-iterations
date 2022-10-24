@@ -91,7 +91,56 @@ Estudie asimismo el tutorial
 En ese tutorial se utiliza el compilador `gcc`, pero puede Ud. sustituirlo por `g++` puesto que el compilador
 de C++ compila igualmente el código en C (como se ha explicado, C++ es un superconjunto de C).
 
+En el directorio `make-example` que ha recibido Ud. con esta práctica puede estudiar un fichero
+[Makefile](https://github.com/IB-2022-2023/P06-alternatives-iterations/blob/main/make-example/Makefile)
+que se utiliza para compilar el programa `dni.cc`
 
+El fichero `Makefile` contiene comentarios indicando la finalidad de cada una de las líneas que figuran en el
+mismo.
+Debería Ud. estudiar cada una de esas líneas y comprender su finalidad y formato.
+Comentamos a continuación algunos de los aspectos más destacados.
+
+Tenga en cuenta en primer lugar que el formato del fichero `Makefile` requiere que en algunos puntos del mismo
+haya caracteres de tabulador (`\t`) y no acepta espacios en su lugar.
+Así, el primer carácter en las líneas 19 o 29 del fichero ha de ser forzosamente un tabulador (no espacios).
+
+La línea 16 es la que especifica el nombre del fichero ejecutable que ha de construir `make`, y que en este
+caso es *dni*. 
+Se indica en la línea 18 que el fichero *dni* depende de su código objeto *dni.o*.
+La línea 19 indica cómo "construir" el fichero *dni* a partir de *dni.o*: se invocaría el compilador con una
+línea como:
+```
+g++	-std=c++17 -Wall -o dni dni.o
+```
+(Observe que esa, efectivamente es el segundo comando que se ejecuta cuando se invoca a `make`).
+Es decir, se invoca al enlazador (*linker*) para que produzca el código binario (*dni*) a partir del código
+objeto (*dni.o*).
+
+
+La línea 29 indica cómo construir los ficheros objeto (*.o*) a partir de su correspondiente fichero fuente
+(*.cc*). 
+En este ejemplo, esa línea será la primera que se ejecute produciendo:
+```
+g++	-std=c++17 -Wall -c -o dni.o dni.cc
+```
+Que invoca al compilador con la opción `-c` (solo compilar, sin enlazar) para producir el código objeto
+(*dni.o*) a partir del fichero fuente (*dni.cc*).
+Observe que ese comando es el primero que se ejecuta al invocar a `make`.
+
+La línea 27 (comentada) indicaría que el fichero *dni.o* depende de *dni.cc* pero tal como indica el
+comentario, esa regla no necesita especificarse explícitamente porque `make` la contempla por defecto.
+
+Por último indicar que los comandos que figuran después de la línea 34 se ejecutan al invocar
+```
+make clean
+```
+Se puede utilizar *clean* o cualquier otra etiqueta, pero se ha convertido en una costumbre utilizar la
+etiqueta *clean*.
+La finalidad de estos comandos (que puede Ud. configurar a su gusto) es borrar todos aquellos ficheros que,
+siendo producto de la compilación/edición del proyecto, no se desea retener.
+Así por ejemplo los ficheros `*.o` con código objeto o el fichero ejecutable (`dni` en este caso) no conviene
+conservarlos puesto que ocupan espacio y no son necesarios, puesto que se pueden obtener a partir del codigo
+fuente.
 
 
 ### Ejercicios

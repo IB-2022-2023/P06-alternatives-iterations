@@ -24,7 +24,7 @@ dni: dni.o
 
 # The following rule is effectively built into make and
 # therefore need not be explicitly specified:
-# hello_world.o: hello_world.cc
+# dni.o: dni.cc
 #
 	$(CXX) $(CXXFLAGS) -c $<
 
