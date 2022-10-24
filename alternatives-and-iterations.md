@@ -20,12 +20,18 @@ para su evaluación
 * Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
 
-### Introducción a Git y GitHub
+### Github Classroom
+En el futuro se utilizará GitHub Classroom (una plataforma relacionada con GitHub) para gestionar las
+prácticas de *Informática Básica*.
+En esa plataforma, para la realización de cada práctica recibirá una invitación a una tarea que tendrá que
+aceptar.
+Una vez acepte la invitación tendrá que clonar un repositorio asociado a la tarea.
+Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
+que realice.
 
-### La Guía de Estilo de Google para C++
 
-### El tutorial *Learn C++*
-### Expresiones
+### La utilidad `make`
+
 
 ### Ejercicios
 1. Estudie el apartado 
