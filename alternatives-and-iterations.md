@@ -94,11 +94,10 @@ de C++ compila igualmente el código en C (como se ha explicado, C++ es un super
 En el directorio `make-example` que ha recibido Ud. con esta práctica puede estudiar un fichero
 [Makefile](https://github.com/IB-2022-2023/P06-alternatives-iterations/blob/main/make-example/Makefile)
 que se utiliza para compilar el programa `dni.cc`
-
-El fichero `Makefile` contiene comentarios indicando la finalidad de cada una de las líneas que figuran en el
+Ese fichero `Makefile` contiene comentarios indicando la finalidad de cada una de las líneas que figuran en el
 mismo.
 Debería Ud. estudiar cada una de esas líneas y comprender su finalidad y formato.
-Comentamos a continuación algunos de los aspectos más destacados.
+Se comentan a continuación algunos de los aspectos más destacados.
 
 Tenga en cuenta en primer lugar que el formato del fichero `Makefile` requiere que en algunos puntos del mismo
 haya caracteres de tabulador (`\t`) y no acepta espacios en su lugar.
@@ -110,7 +109,7 @@ Se indica en la línea 18 que el fichero *dni* depende de su código objeto *dni
 La línea 19 indica cómo "construir" el fichero *dni* a partir de *dni.o*: se invocaría el compilador con una
 línea como:
 ```
-g++	-std=c++17 -Wall -o dni dni.o
+g++ -std=c++17 -Wall -o dni dni.o
 ```
 (Observe que esa, efectivamente es el segundo comando que se ejecuta cuando se invoca a `make`).
 Es decir, se invoca al enlazador (*linker*) para que produzca el código binario (*dni*) a partir del código
@@ -121,7 +120,7 @@ La línea 29 indica cómo construir los ficheros objeto (*.o*) a partir de su co
 (*.cc*). 
 En este ejemplo, esa línea será la primera que se ejecute produciendo:
 ```
-g++	-std=c++17 -Wall -c -o dni.o dni.cc
+g++ -std=c++17 -Wall -c -o dni.o dni.cc
 ```
 Que invoca al compilador con la opción `-c` (solo compilar, sin enlazar) para producir el código objeto
 (*dni.o*) a partir del fichero fuente (*dni.cc*).
