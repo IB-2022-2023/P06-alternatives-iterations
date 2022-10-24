@@ -78,7 +78,7 @@ de las herramientas mas usadas para tal propósito.
 
 [make](https://en.wikipedia.org/wiki/Make_(software)) 
 es una herramienta que permite automatizar el proceso de desarrollo de software.
-La función de make es determinar automáticamente qué ficheros o módulos de un programa necesitan ser recompilados, 
+La función de `make` es determinar automáticamente qué ficheros o módulos de un programa necesitan ser recompilados, 
 y ejecutar los comandos necesarios para realizar esa tarea.
 
 Estudie en las transparencias de clase 
@@ -89,7 +89,9 @@ los fundamentos de la utilidad.
 Estudie asimismo el tutorial 
 [A Simple Makefile Tutorial](https://cs.colby.edu/maxwell/courses/tutorials/maketutor/).
 En ese tutorial se utiliza el compilador `gcc`, pero puede Ud. sustituirlo por `g++` puesto que el compilador
-de C++ compila igualmente el código en C (C++ es un superconjunto de C).
+de C++ compila igualmente el código en C (como se ha explicado, C++ es un superconjunto de C).
+
+
 
 
 ### Ejercicios
