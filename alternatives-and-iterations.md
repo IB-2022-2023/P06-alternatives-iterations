@@ -118,6 +118,8 @@ En ese tutorial, el programa que se compila está compuesto de tres ficheros:
 * *hellomake.cc*, el programa principal,
 * *hellofunc.cc*, un fichero en el que figura el código de la función *myPrintHelloMake()*
 * *hellomake.h*, el fichero en el que figura la definición de la función
+Esta es la situación habitual en la que una aplicación desarrollada en C++ consta no de tres sino, en general,
+de decenas de ficheros que hay que compilar.
 
 Una compilación manual de ese programa se realizaría con los comandos:
 ```
@@ -143,7 +145,7 @@ basta con ejecutar
 make 
 ```
 
-En el directorio `make-example` que ha recibido Ud. con esta práctica puede estudiar un fichero
+Para finalizar, en el directorio `make-example` que ha recibido Ud. con esta práctica puede estudiar un fichero
 [Makefile](https://github.com/IB-2022-2023/P06-alternatives-iterations/blob/main/make-example/Makefile)
 que se utiliza para compilar el programa `dni.cc`
 Ese fichero `Makefile` contiene comentarios indicando la finalidad de cada una de las líneas que figuran en el
@@ -151,8 +153,8 @@ mismo.
 Debería Ud. estudiar cada una de esas líneas y comprender su finalidad y formato.
 Se comentan a continuación algunos de los aspectos más destacados.
 
-Tenga en cuenta en primer lugar que el formato del fichero `Makefile` requiere que en algunos puntos del mismo
-haya caracteres de tabulador (`\t`) y no acepta espacios en su lugar.
+Tenga en cuenta en primer lugar (como habrá estudiado en los tutoriales) que el formato del fichero `Makefile` requiere que en algunos puntos del mismo
+haya un caracter tabulador (*tab*, `\t`) y no acepta espacios en su lugar.
 Así, el primer carácter en las líneas 19 o 29 del fichero ha de ser forzosamente un tabulador (no espacios).
 
 La línea 16 es la que especifica el nombre del fichero ejecutable que ha de construir `make`, y que en este
