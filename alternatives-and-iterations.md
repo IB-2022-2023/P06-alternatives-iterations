@@ -87,12 +87,13 @@ de las herramientas mas usadas para tal propósito.
 
 [make](https://en.wikipedia.org/wiki/Make_(software)) 
 es una herramienta que permite automatizar el proceso de desarrollo de software.
-La función de `make` es determinar automáticamente qué ficheros o módulos de un programa necesitan ser recompilados, 
+La función de `make` es determinar automáticamente qué ficheros de un programa necesitan ser recompilados, 
 y ejecutar los comandos necesarios para realizar esa tarea.
 
 Comience su estudio de `make` estudiando 
 [este tutorial](https://makefiletutorial.com/) 
 y reproduciendo en su máquina virtual y entendiendo cada uno de los ejemplos.
+Estudie solamente hasta el apartado *Static Pattern Rules* del tutorial.
 En 
 [este
 directorio](https://github.com/IB-2022-2023/IB-class-code-examples/tree/master/IntroductionToC%2B%2B/make_tutorial2)
