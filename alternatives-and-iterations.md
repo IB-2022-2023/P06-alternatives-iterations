@@ -196,14 +196,14 @@ conservarlos puesto que ocupan espacio y no son necesarios, puesto que se pueden
 fuente.
 
 ### Ejercicios
-* Al realizar los siguientes ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
+* Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
+* Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
 para cada uno de los ejercicios.
 Asigne a cada uno de esos directorios nombres significativos. Por ejemplo `P34279_add-one-second` para el
 tercer ejercicio.
 * Automatice la compilación del programa correspondiente a cada ejercicio con un fichero `Makefile`
 independiente para cada programa y que ha de incluir en el correspondiente directorio.
-* Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
-* Recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento.
+* Recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista de su correcto funcionamiento.
 Su código ha de cumplir adicionalmente con los requisitos de modularidad, formato y estilo.
 
 1. [P98960](https://jutge.org/problems/P98960_en) Uppercase and lowercase letters
