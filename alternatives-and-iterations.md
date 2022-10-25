@@ -16,7 +16,7 @@ Se comprobará que el alumnado:
 * Es capaz de escribir programas simples en C++ que resuelvan problemas de
   complejidad similar a los que se han propuesto para esta práctica
 * Ha automatizado la compilación de sus programas usando un fichero `Makefile`
-  para cada uno de los programas que desarrolle de ahora en adelante
+  para cada uno de los programas que desarrolle 
 * Acredita que todas las prácticas realizadas hasta la fecha se encuentran alojadas en repositorios
   privados de [GitHub](https://github.com/).
 * Acredita que es capaz de subir programas a la plataforma 
@@ -33,24 +33,24 @@ En el futuro se utilizará GitHub Classroom (una plataforma relacionada con GitH
 prácticas de *Informática Básica*.
 En esa plataforma, para la realización de cada práctica recibirá una invitación a una tarea que tendrá que
 aceptar.
-Una vez acepte la invitación tendrá que clonar un repositorio asociado a la tarea.
+Una vez acepte la invitación tendrá que clonar con `git` un repositorio asociado a la tarea.
 Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
 que realice.
 
-El enlace de invitación a la tarea tiene una apariencia similar a
-`https://classroom.github.com/a/uNbth9vD`.
-Si lo introduce en un navegador, se le solicitará que se autentifique en su cuenta de GitHub.
-Una vez autentificada/o le llevará a una pantalla
+El enlace de invitación a la tarea que se le comunicará tiene una apariencia similar a
+`https://classroom.github.com/a/uNbth9vD`
+Si lo introduce en un navegador, se le solicitará que se autentifique en su cuenta de GitHub,
+y una vez autentificada/o le llevará a una pantalla
 [como esta](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/join-the-classroom-22-23.png?token=GHSAT0AAAAAAB2KIDMDGVFSGV5ZPKCEIPJQY2WOHQQ)
-en la que se le solicitará que se una a la "classroom" IB-2022-2023.
+en la que se le solicitará que se una a la "*classroom*" IB-2022-2023.
 Para ello ha de seleccionar su nombre de la lista de identificadores (*Identifiers*) que figura en esa página.
-A continuación se le solicitará que "Acepte la tarea Practica-PRUEBAXXXXXXX" (habrá una tarea asociada con
-cada una de las prácticas de la asignatura.
+A continuación se le solicitará que "Acepte la tarea Practica-Nombre"
+Habrá una tarea asociada con cada una de las prácticas de la asignatura.
 
 Cuando lo haya hecho aparecerá una pantalla 
 [como esta](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/accepted.png?token=GHSAT0AAAAAAB2KIDMCQ75PHT2TCKF2HUPSY2WOOPQ)
-indicando que ha aceptado Ud. la tarea asignada
-Cuando refresque la pantalla le mostrará 
+que indica que ha aceptado Ud. la tarea asignada y
+cuando refresque la pantalla le mostrará 
 [otra pantalla](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/ready.png?token=GHSAT0AAAAAAB2KIDMDZNDJL6P5KDO3N4OEY2WOPIA)
 en la que figura el enlace al repositorio que ha sido creado
 para su trabajo en la práctica.
@@ -59,10 +59,11 @@ A través de ese enlace accederá Ud. en GitHub al repositorio privado que se ha
 él los programas correspondientes a la práctica en cuestión.
 [El enlace que figura en ese repositorio](https://raw.githubusercontent.com/IB-2022-2023/P06-alternatives-iterations/main/link.png?token=GHSAT0AAAAAAB2KIDMCQ4Z4HTEU2RJWWXDCY2WOQCA)
 (elija la opción SSH para el enlace) es el que ha de entregar Ud. en la tarea del aula virtual correspondiente a la práctica.
-Recuerde que tiene que entregar 2 elementos: este enlace a su repositorio y un fichero `.tar.gz` conteniendo
-todos los programas que desarrolle tanto antes como durante la sesión de evaluación.
-Ese enlace lo puede ya escribir en la tarea correspondiente del aula virtual: no es necesario que espere a la
-sesión de evaluación para subirlo.
+
+Recuerde que para cada práctica tiene que entregar 2 elementos: 
+* Este enlace a su repositorio. Ese enlace lo puede ya escribir en la tarea correspondiente del aula virtual: 
+no es necesario que espere a la sesión de evaluación para subirlo.
+* Un fichero `.tar.gz` conteniendo todos los programas que desarrolle tanto antes como durante la sesión de evaluación.
 Sí ha de esperar a la sesión de evaluación para subir el fichero .tar.gz conteniendo sus programas.
 
 Ese mismo enlace es el que ha de utilizar para realizar una copia local (clone) del repositorio en su máquina
