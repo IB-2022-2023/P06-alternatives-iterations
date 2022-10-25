@@ -4,28 +4,29 @@
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
-* Que el alumnado sea capaz de resolver problemas sencillos en C++ usando todos los conocimientos adquiridos
+* Sea capaz de resolver problemas sencillos en C++ usando todos los conocimientos adquiridos
   hasta ahora, y en particular haciendo uso de sentencias alternativas y de iteración
-* Que el alumnado conozca la herramienta `make` y que sea capaz de configurar ficheros `Makefile` sencillos
+* Conozca la herramienta `make` y que sea capaz de configurar ficheros `Makefile` sencillos
   para la automatización de la compilación de sus ejercicios.
-* Que el alumnado comience a gestionar sus asignaciones de trabajos prácticos usando GitHub Classroom
+* Comience a gestionar sus asignaciones de trabajos prácticos usando GitHub Classroom
 
 ### Rúbrica de evaluacion de esta práctica
-Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica:
-* Se comprobará que el alumnado es capaz de escribir programas simples en C++ que resuelvan problemas de
+Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica.
+Se comprobará que el alumnado:
+* Es capaz de escribir programas simples en C++ que resuelvan problemas de
   complejidad similar a los que se han propuesto para esta práctica
-* Se comprobará que el alumnado ha automatizado la compilación de sus programas usando un fichero `Makefile`
+* Ha automatizado la compilación de sus programas usando un fichero `Makefile`
   para cada uno de los programas que desarrolle de ahora en adelante
-* Ha de acreditar que todas las prácticas realizadas hasta la fecha se encuentran alojadas en repositorios
+* Acredita que todas las prácticas realizadas hasta la fecha se encuentran alojadas en repositorios
   privados de [GitHub](https://github.com/).
-* Ha de acreditar que es capaz de subir programas a la plataforma 
+* Acredita que es capaz de subir programas a la plataforma 
 [Jutge](https://jutge.org/)
 para su evaluación
-* Se comprobará que todos los ficheros (`*.cc`, `*.h`) de sus prácticas incluyen un comentario de cabecera
-* Se comprobará que todos los programas de sus prácticas se ajusten a la
+* Ha incluido un comentario prólogo en todos los ficheros (`*.cc`, `*.h`) de sus ejercicios
+* Hace que todos los programas de sus prácticas se ajusten a la
 [Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
-* Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
-* Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
+* Acredita que es capaz de editar ficheros remotos en su VM usando vi
+* Demuestra que es capaz de ejecutar comandos Linux en su VM
 
 ### GitHub Classroom
 En el futuro se utilizará GitHub Classroom (una plataforma relacionada con GitHub) para gestionar las
