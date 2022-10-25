@@ -170,7 +170,7 @@ Es decir, se invoca al enlazador (*linker*) para que produzca el código binario
 objeto (*dni.o*).
 
 
-La línea 29 indica cómo construir los ficheros objeto (*.o*) a partir de su correspondiente fichero fuente
+La línea 29 indica cómo construir los ficheros objeto (*.o*) a partir de su correspondientes ficheros fuente
 (*.cc*). 
 En este ejemplo, esa línea será la primera que se ejecute produciendo:
 ```
@@ -198,7 +198,8 @@ fuente.
 ### Ejercicios
 * Al realizar los siguientes ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
 para cada uno de los ejercicios.
-Asigne a cada uno de esos directorios nombres significativos.
+Asigne a cada uno de esos directorios nombres significativos. Por ejemplo `P34279_add-one-second` para el
+tercer ejercicio.
 * Automatice la compilación del programa correspondiente a cada ejercicio con un fichero `Makefile`
 independiente para cada programa y que ha de incluir en el correspondiente directorio.
 * Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
