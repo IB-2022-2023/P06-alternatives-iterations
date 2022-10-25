@@ -195,6 +195,14 @@ Así por ejemplo los ficheros `*.o` con código objeto o el fichero ejecutable (
 conservarlos puesto que ocupan espacio y no son necesarios, puesto que se pueden obtener a partir del codigo
 fuente.
 
+### Material de estudio complementario
+Estudie del
+[tutorial de referencia](https://www.learncpp.com/)
+en la asignatura los siguientes apartados:
+* 2.1
+[Introduction to functions](https://www.learncpp.com/cpp-tutorial/introduction-to-functions/)
+* Del capítulo 7 los apartados 7.1 al 7.11
+
 ### Ejercicios
 * Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
 * Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
