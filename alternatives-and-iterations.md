@@ -181,7 +181,7 @@ Observe que ese comando es el primero que se ejecuta al invocar a `make`.
 La línea 27 (comentada) indicaría que el fichero *dni.o* depende de *dni.cc* pero tal como indica el
 comentario, esa regla no necesita especificarse explícitamente porque `make` la contempla por defecto.
 
-Por último indicar que los comandos que figuran después de la línea 34 se ejecutan al invocar
+Por último, indicar que los comandos que figuran después de la línea `34` se ejecutan al invocar:
 ```
 make clean
 ```
@@ -194,11 +194,8 @@ conservarlos puesto que ocupan espacio y no son necesarios, puesto que se pueden
 fuente.
 
 ### Material de estudio complementario
-Estudie del
-[tutorial de referencia](https://www.learncpp.com/)
-en la asignatura los siguientes apartados:
-* 2.1
-[Introduction to functions](https://www.learncpp.com/cpp-tutorial/introduction-to-functions/)
+Estudie del [tutorial de referencia](https://www.learncpp.com/) en la asignatura los siguientes apartados:
+* 2.1 [Introduction to functions](https://www.learncpp.com/cpp-tutorial/introduction-to-functions/)
 * Del capítulo 7 los apartados 7.1 al 7.11
 
 ### Ejercicios
