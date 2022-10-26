@@ -8,7 +8,7 @@ Los objetivos de esta práctica son que el alumnado:
   hasta ahora, y en particular haciendo uso de sentencias alternativas y de iteración
 * Conozca la herramienta `make` y que sea capaz de configurar ficheros `Makefile` sencillos
   para la automatización de la compilación de sus ejercicios.
-* Comience a gestionar sus asignaciones de trabajos prácticos usando GitHub Classroom
+* Comience a gestionar sus asignaciones de trabajos prácticos usando [GitHub Classroom](https://classroom.github.com)
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica.
@@ -19,9 +19,7 @@ Se comprobará que el alumnado:
   para cada uno de los programas que desarrolle 
 * Acredita que todas las prácticas realizadas hasta la fecha se encuentran alojadas en repositorios
   privados de [GitHub](https://github.com/).
-* Acredita que es capaz de subir programas a la plataforma 
-[Jutge](https://jutge.org/)
-para su evaluación
+* Acredita que es capaz de subir programas a la plataforma [Jutge](https://jutge.org/) para su evaluación
 * Ha incluido un comentario prólogo en todos los ficheros (`*.cc`, `*.h`) de sus ejercicios
 * Hace que todos los programas de sus prácticas se ajusten a la
 [Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
