@@ -214,3 +214,16 @@ Su código ha de cumplir adicionalmente con los requisitos de modularidad, forma
 3. [P34279](https://jutge.org/problems/P34279_en) Add one second
 4. [P97156](https://jutge.org/problems/P97156_en) Numbers in an interval
 5. [P59539](https://jutge.org/problems/P59539_en) Harmonic numbers (1)
+
+Tenga en cuenta que en la evaluación de las prácticas de *Informática Básica* se utlizarán ejercicios de
+Jutge, de modo que resolver problemas en esa plataforma mejorará sus capacidades como programadora.
+Realice todos los ejercicios del curso 
+[Informática Básica](https://jutge.org/courses/FranciscoDeSande:IB_ULL)
+de Jutge que sea capaz.
+Resuelva los problemas atendiendo al orden que figura en ese curso, puesto que están seleccionados con
+complejidad creciente.
+No se preocupe demasiado si no consigue solucionar alguno de los problemas concretos: es preferible que centre
+sus esfuerzos en realizar muchos programas que en solucionar algunoconcreto.
+
+Recuerde siempre que Jutge solo evalúa la corrección de su programa desde un punto de vista de su correcto funcionamiento.
+Su código ha de cumplir adicionalmente con los requisitos de modularidad, formato y estilo.
