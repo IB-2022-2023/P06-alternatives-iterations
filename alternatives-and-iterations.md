@@ -1,4 +1,4 @@
-# Práctica 06. Alternativas e Iteraciones
+# Práctica 06. Alternativas e Iteraciones. GitHub Classroom. Make.
 
 # Factor de ponderación: 6
 
